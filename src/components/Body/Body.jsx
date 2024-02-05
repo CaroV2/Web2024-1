@@ -7,11 +7,8 @@ export function Body() {
             </div>
             La cuerpaza
             <div className='call-to-action'>
-                <section className='uno'>
-                    
-                </section>
                 <img src="https://estaticos.elcolombiano.com/binrepository/848x566/52c0/780d565/none/11101/QHEV/juventus-v-villarreal-cf-round-of-sixteen-leg-two-uefa-champions-league-1536x1024_41428425_20230117105258.jpg" alt=""/>
-                <img scr="https://caracol.com.co/resizer/z3EhLSmpJv6Wp_H0qT5hOYmaJRU=/650x488/filters:format(jpg):quality(70):focal(2809x1583:2819x1593)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/TAW7QVU3RREBVADZJPVPZZLMDE.jpg" alt=""/>
+                <img scr="https://www.publicdomainpictures.net/pictures/390000/nahled/image-1614231144q0Q.jpg" alt=""/>
             </div>
         </body>
     )
