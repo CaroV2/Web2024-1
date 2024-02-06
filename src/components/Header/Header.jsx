@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/elinika-logo.png'
 export function Header() {
     return(
         <header>
