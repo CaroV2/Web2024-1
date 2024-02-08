@@ -1,3 +1,5 @@
+import './Body.css'
+
 import recommf from '../../assets/r-food.png';
 import recommp from '../../assets/r-place.png';
 import food from '../../assets/food.png';

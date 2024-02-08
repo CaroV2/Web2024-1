@@ -1,0 +1,23 @@
+footer {
+    background-color: #D2E8F9;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  
+  .social-media {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .social-media img {
+    width: 45px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .logo-footer img {
+    width: 150px;
+    height: auto;
+  }

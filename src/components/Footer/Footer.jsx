@@ -1,3 +1,4 @@
+import './Footer.css'
 import x from '../../assets/x.png';
 import fb from '../../assets/fb.png';
 import ig from '../../assets/ig.png';
