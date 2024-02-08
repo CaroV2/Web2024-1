@@ -1,6 +1,8 @@
 import recommf from '../../assets/r-food.png';
 import recommp from '../../assets/r-place.png';
 import food from '../../assets/food.png';
+import more from '../../assets/more.png';
+
 export function Body() {
     return(
         <body>
@@ -8,7 +10,7 @@ export function Body() {
                 <img src="https://media.architecturaldigest.com/photos/5c9e699c1aeb991ed9e6da2b/16:9/w_2560%2Cc_limit/GettyImages-183996236.jpg" alt="Helsinki cathedral"/>
                 <h1>DISCOVER HELSINKI</h1>
             </div>
-            La cuerpaza
+            
             <div className='call-to-action'>
                 <img src={recommp} alt="2 days on Helsinki"/>
                 <img src={recommf} alt="A guide to traditional food"/>
@@ -44,13 +46,20 @@ export function Body() {
                 <button class="btn-recomm"> Discover more </button>
             </div>
 
-            <div className='text-more'>
-                <h3>Do you want know more?</h3>
-                <p>Discover the architectural wonders of Helsinki, the history of each location, and a guide on how to get there from your current location.</p>
-            </div>
+            <div className='more-container'>
+                <div className='more-items'>
+                    <div className='text-more'>
+                        <h3>Do you want know more?</h3>
+                        <p>Discover the architectural wonders of Helsinki, the history of each location, and a guide on how to get there from your current location.</p>
+                    </div>
 
-            <div className='more-button'>
-                <button class="btn-more"> Discover more </button>
+                    <div className='more-button'>
+                        <button class="btn-more"> Discover more </button>
+                    </div>
+                </div>
+                <div className='more-img'>
+                    <img src={more} alt='Amóx Rex'/>
+                </div>
             </div>
         </body>
     )

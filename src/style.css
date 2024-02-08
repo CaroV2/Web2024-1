@@ -16,6 +16,7 @@ header {
 .logo {
   padding-left: 50px;
   padding-right: 150px;
+  cursor: pointer;
 }
 
 .menu {
@@ -59,13 +60,13 @@ body {
 .call-to-action {
   display: flex;
   justify-content: center;
-  gap: 50px;
-  margin-top: 20px;
+  gap: 70px;
+  padding: 60px;
 }
 
 .call-to-action img {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: auto;
 }
 
 .food-recomm img {
@@ -80,6 +81,57 @@ body {
   background-color: #333; /* Color de fondo del rectángulo */
 }
 
+button {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  background-color: #A9D0D9;
+  border: none;
+  padding: 20px 70px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #C0C0C0;
+}
+
+button:hover {
+  font-weight: 700;
+  background-color: #4A8B9D;
+  cursor: pointer;
+}
+
+.more-container {
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+  padding: 130px;
+  text-align: left;
+}
+
+.more img {
+  height: 400px;
+  width: auto;
+}
+
 footer {
-  font-family: 'Noto Sans', sans-serif;
+  background-color: #D2E8F9;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.social-media {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social-media img {
+  width: 45px;
+  height: auto;
+  cursor: pointer;
+}
+
+.logo-footer img {
+  width: 150px;
+  height: auto;
 }
