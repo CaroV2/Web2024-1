@@ -1,21 +1,22 @@
 {
-  "name": "web2024-1-1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "counter-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
+  "devDependencies": {
+    "vite": "^5.1.0"
+  },
+  "description": "Realizar la interfaz gráfica de la aplicación de un contador usando componentes y sus props.\r - Header: Contiene el título de la aplicación.\r - Main: Debe desplegar un contador numérico y tres botones:\r   a. Para restar.\r   b. Para añadir una unidad al contador.\r   c. Para devolver el contador a su estado inicial.\r - Componente footer: Nombre del estudiante.",
+  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "serve": "^14.2.1"
-  },
   "dependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "node": "^21.6.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@vitejs/plugin-react": "^4.2.1"
   }
 }
