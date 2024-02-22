@@ -10,42 +10,48 @@ export function Body() {
         <body>
             <div className='banner'>
                 <img src="https://media.architecturaldigest.com/photos/5c9e699c1aeb991ed9e6da2b/16:9/w_2560%2Cc_limit/GettyImages-183996236.jpg" alt="Helsinki cathedral"/>
-                <h1>DISCOVER HELSINKI</h1>
+                <h1>DISCOVER HELSINKI</h1>  
             </div>
             
             <div className='call-to-action'>
-                <img src={recommp} alt="2 days on Helsinki"/>
-                <img src={recommf} alt="A guide to traditional food"/>
-            </div>
-
-            <div className='place-text'>
-                <p>A two-day, one-night itinerary authored by our acclaimed backpacker, Anthony Miles, featuring remarkable Helsinki destinations, along with a price list and map for convenient navigation.</p>
-            </div>
-
-            <div className='food-text'>
-                <p>Explore delectable traditional Helsinki dishes with their recipes, prices, and top restaurants. Additionally, it offers a two-day culinary tour encompassing breakfast, lunch, dinner, and snacks.</p>
+                <div className='guide-travel'>
+                    <img src={recommp} alt="2 days on Helsinki"/>
+                    <div className='place-text'>
+                        <h3>2 days on Helsinki</h3>
+                        <p>A two-day, one-night itinerary authored by our acclaimed backpacker, Anthony Miles, featuring remarkable Helsinki destinations, along with a price list and map for convenient navigation.</p>
+                    </div>
+                    <div className='p-button'>
+                        <button class="btn-place"> Discover more </button>
+                    </div>
                 </div>
-
-            <div className='p-button'>
-                <button class="btn-place"> Discover more </button>
-            </div>
-
-            <div className='f-button'>
-                <button class="btn-food"> Look delicious dishes </button>
+                
+                <div className='guide-food'>
+                <img src={recommf} alt="A guide to traditional food"/>
+                    <div className='food-text'>
+                        <h3>A guide to traditional food</h3>
+                        <p>Explore delectable traditional Helsinki dishes with their recipes, prices, and top restaurants. Additionally, it offers a two-day culinary tour encompassing breakfast, lunch, dinner, and snacks.</p>
+                    </div>
+                    <div className='f-button'>
+                        <button class="btn-food"> Look delicious dishes </button>
+                    </div>
+                </div>
             </div>
 
             <div className='food-recomm'>
-                <img src={food} alt='Finnish dish'/>
-                <div className='rectangle'></div>
-            </div>
-
-            <div className='text-recomm'>
-                <h3>Curiosities about food</h3>
-                <p>Discover interesting facts about traditional Helsinki cuisine.</p>
-            </div>
-
-            <div className='r-button'>
-                <button class="btn-recomm"> Discover more </button>
+                <div className='rectangle'>
+                <div className='recomm-container'>
+                    <img src={food} alt='Finnish dish'/>
+                    <div className='text-container'>
+                        <div className='text-recomm'>
+                            <h3>Curiosities about food</h3>
+                            <p>Discover interesting facts about traditional Helsinki cuisine.</p>
+                        </div>
+                        <div className='r-button'>
+                            <button class="btn-recomm"> Discover more </button>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
 
             <div className='more-container'>

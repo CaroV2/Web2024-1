@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 70px;
-    padding: 60px;
+    padding: 80px;
   }
   
   .call-to-action img {
@@ -43,12 +43,22 @@ body {
   }
   
   .rectangle {
-    position: relative;
-    width: 100%; /* Ajusta el ancho del rectángulo según sea necesario */
-    height: 300px; /* Ajusta la altura del rectángulo según sea necesario */
-    background-color: #333; /* Color de fondo del rectángulo */
+    display: flex;    
+    width: 100%;
+    height: auto;
+    background-color: #8CB3BC;
+  }
+
+  .food-recomm {
+    justify-content: center;
   }
   
+  .recomm-container {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+  }
+
   button {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
@@ -71,7 +81,7 @@ body {
     justify-content: center;
     display: flex;
     gap: 50px;
-    padding: 130px;
+    padding: 80px;
     text-align: left;
   }
   
@@ -79,3 +89,51 @@ body {
     height: 400px;
     width: auto;
   }
+
+  @media screen and (max-width: 900px) {
+    body {
+      justify-items: center;
+    }
+    
+    .banner {
+      width: 100%;
+    }
+    
+    .banner h1 {
+        font-size: auto;
+    }
+
+    .call-to-action {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .call-to-action img {
+        width: 100%;
+    }
+
+    .guide-travel {
+      background-color: #E7F3F5;
+    }
+
+    .rectangle {
+      background-color: #E7F3F5;
+    }
+
+    .recomm-container {
+      flex-direction: column;
+    }
+
+    .food-recomm {
+      display: flex;
+    }
+
+    .food-recomm img {
+        width: 100%;
+    }
+
+    .more-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
