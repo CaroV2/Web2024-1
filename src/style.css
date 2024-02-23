@@ -1,0 +1,10 @@
+:root {
+  background-color: #D9D9;
+}
+
+#app {
+  text-align: center;
+  color-scheme: light dark;
+  font-family: "Lato", sans-serif;
+  color: #050505;
+}

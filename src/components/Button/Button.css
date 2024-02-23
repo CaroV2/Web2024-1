@@ -1,0 +1,44 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+.button-add {
+    background-color: #C2F5B8;
+    width: 40px;
+}
+
+.button-add:hover {
+    cursor: pointer;
+    background-color: #91CA85;
+}
+
+.button-less {
+    background-color: #F56D67;
+    width: 40px;
+}
+
+.button-less:hover {
+    cursor: pointer;
+    background-color: #C55650;
+}
+
+.button-reset {
+    background-color: #9F9F9F;
+}
+
+.button-reset:hover {
+    cursor: pointer;
+    background-color: #494949;
+}

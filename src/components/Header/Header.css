@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  }
+
+.h1 {
+  font-weight: 900; /*lato-black*/
+  font-size: 36px;
+  font-style: normal;
+}
