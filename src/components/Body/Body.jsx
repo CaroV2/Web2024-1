@@ -21,7 +21,7 @@ export function Body() {
                         <p>A two-day, one-night itinerary authored by our acclaimed backpacker, Anthony Miles, featuring remarkable Helsinki destinations, along with a price list and map for convenient navigation.</p>
                     </div>
                     <div className='p-button'>
-                        <button class="btn-place"> Discover more </button>
+                        <button class="body-button"> Discover more </button>
                     </div>
                 </div>
                 
@@ -32,7 +32,7 @@ export function Body() {
                         <p>Explore delectable traditional Helsinki dishes with their recipes, prices, and top restaurants. Additionally, it offers a two-day culinary tour encompassing breakfast, lunch, dinner, and snacks.</p>
                     </div>
                     <div className='f-button'>
-                        <button class="btn-food"> Look delicious dishes </button>
+                        <button class="body-button"> Look delicious dishes </button>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export function Body() {
                             <p>Discover interesting facts about traditional Helsinki cuisine.</p>
                         </div>
                         <div className='r-button'>
-                            <button class="btn-recomm"> Discover more </button>
+                            <button class="body-button"> Discover more </button>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ export function Body() {
                     </div>
 
                     <div className='more-button'>
-                        <button class="btn-more"> Discover more </button>
+                        <button class="body-button"> Discover more </button>
                     </div>
                 </div>
                 <div className='more-img'>
