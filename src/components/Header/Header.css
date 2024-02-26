@@ -39,17 +39,6 @@ header {
     z-index: 10;
 }
 
-.hamburger div {
-    width: 2rem;
-    height: 0.25rem;
-    background: #333;
-    border-radius: 10px;
-    margin: 10px 0 10px 0;
-    transition: all 0.3s linear;
-    position: relative;
-    transform-origin: 1px;
-}
-
 .menu {
     display: none;
     position: absolute;
@@ -84,5 +73,6 @@ header {
         position: static;
         transform: none;
         justify-content: center;
+        align-items: left;
     }
 }
