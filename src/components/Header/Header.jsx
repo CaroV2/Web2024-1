@@ -6,6 +6,9 @@ import menu from '../../assets/hamburguer-menu.png'
 
 export function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const handleClick = (url) => {
+        window.open(url, '_blank');
+      }
 
     return(
         <header>
@@ -17,7 +20,9 @@ export function Header() {
             </button>
             <nav className={`menu ${isOpen ? 'open' : ''}`}>
                 <a href='#'><h3>Home</h3></a>
-                <a href='#'><h3>News</h3></a>
+                <a onClick={() => handleClick('https://www.helsinkitimes.fi/')}>
+                    <h3>News</h3>
+                </a>
                 <a href='#'><h3>Design</h3></a>
                 <a href='#'><h3>About us</h3></a>
             </nav>
