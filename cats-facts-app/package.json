@@ -1,20 +1,23 @@
 {
+  "name": "web2024-1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  },
   "dependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "express": "^4.19.2",
-    "nodemon": "^3.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "serve": "^14.2.1",
-    "start": "^5.1.0"
+    "react-dom": "^18.2.0"
   },
-  "name": "web2024-1",
-  "description": "",
-  "version": "1.0.0",
-  "main": "vite.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Creación de una página que llama dos api.",
+  "main": "index.js",
   "author": "",
   "license": "ISC"
 }
