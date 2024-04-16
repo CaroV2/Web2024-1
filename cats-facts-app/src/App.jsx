@@ -1,12 +1,10 @@
-import React from 'react'
-import { CatImage } from './components/catsImage/catImage'
-import { CatFact } from './components/catsQuote/catsQuote'
+import React from 'react';
+import { Body } from './components/Body/Body'
 
-export default function App () {
-  return (
+export default function App() {
+  return(
     <>
-      <CatImage />
-      <CatFact />
+      <Body/>
     </>
   )
 }
