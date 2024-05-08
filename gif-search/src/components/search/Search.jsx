@@ -1,18 +1,33 @@
+import React, { useState } from 'react';
+
 export function Search() {
-    return(
-        <form>
-            <div className="input_search">
-                <label for="query-input">
+    const [query, setQuery] = useState('');
+
+    const handleChange = (event) => {
+        setQuery(event.target.value);
+    };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(query);
+    };
+
+    return (
+        <form onSubmit={handleSubmit}>
+            <div className="input-search">
+                <label htmlFor="query-input">
                     Gif query word
                 </label>
                 <input
                     type="text"
                     placeholder="Search..."
+                    value={query}
+                    onChange={handleChange}
                 />
             </div>
             <button type="submit">
                 Submit
             </button>
         </form>
-    )
+    );
 }
